@@ -1,3 +1,2 @@
-# PreEntrega3-RodriguezLuis
-
-retome el tema de la anterior preentrega , no me termino de convencer el tema del storage , siento que no quedo como yo quería , entregare y seguramente este buscando la forma de que quede como yo quiero pero posiblemente lo deje asi por temas de exámenes en la técnica , espero que este todo bien y les guste el resultado , tambien agregue un poco de css para que tenga vida la preentrega 😁
+# ProyectoFinal-RodriguezLuis
+para este proyecto final , agrege las consignas nuevas y un poco mas de css con imagenes para que se vea mas agradable a la vista , quisiera emplearle mas tiempo a la pagina pero ando en semana de examenes y pues ando cerrando notas , pero bueno , espero que le guste mi proyecto , seguramente esto lo lea el profe asi que queria decirle que , me pareciste un profe muy calida , muy atento e insistente en que entendamos los temas , me da pereza lo de las valoraciones asi que prefiero decirlo por aca , en fin que tenga un buen dia profe , gracias por enseñarme los simientos de javascript 😁
