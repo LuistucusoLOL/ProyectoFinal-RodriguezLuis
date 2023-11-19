@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.carrito-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.producto-imagen {
+    max-width: 100%;
+    height: auto;
+    margin-top: 7px;
+}
+.volver-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:#333;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.volver-button:hover {
+    background-color: #2980b9; 
+}
+.carrito-button:hover {
+    background-color: #2980b9; 
+}
+
+
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#nbInput,
+#dpInput {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#saludar,
+#deposito {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#saludar:hover,
+#deposito:hover {
+    background-color: #2980b9;
+}
+
+
+

@@ -1,0 +1,3 @@
+# PreEntrega3-RodriguezLuis
+
+retome el tema de la anterior preentrega , no me termino de convencer el tema del storage , siento que no quedo como yo quería , entregare y seguramente este buscando la forma de que quede como yo quiero pero posiblemente lo deje asi por temas de exámenes en la técnica , espero que este todo bien y les guste el resultado , tambien agregue un poco de css para que tenga vida la preentrega 😁

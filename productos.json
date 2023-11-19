@@ -1,0 +1,11 @@
+[
+    { "producto": "Papa", "precio": 1.25, "imagen": "imagenes/papa.jpeg" },
+    { "producto": "Zanahoria", "precio": 7.71, "imagen": "imagenes/zanahoria.jpeg" },
+    { "producto": "Tomate", "precio": 5.32, "imagen": "imagenes/tomate.jpeg" },
+    { "producto": "Lechuga", "precio": 1.99, "imagen": "imagenes/lechuga.jpeg" },
+    { "producto": "Mazorca", "precio": 6.45, "imagen": "imagenes/mazorca.jpeg" },
+    { "producto": "Auyama", "precio": 8.67, "imagen": "imagenes/auyama.jpeg" },
+    { "producto": "Aguacate", "precio": 5.27, "imagen": "imagenes/aguacate.jpeg" }
+]
+
+
