@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async function () {
+
     let carritoList = document.getElementById("carritoList");
     let comprarButton = document.getElementById("comprarButton");
 
@@ -21,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 Swal.fire({
                     icon: "error",
                     title: "Oops...",
-                    text: "agrega algo al carrito para poder comprar😁",                
+                    text: "Agrega algo al carrito para poder comprar😁",                
                   });
                 return;
             }

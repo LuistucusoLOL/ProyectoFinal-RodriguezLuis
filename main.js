@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let productosList = document.getElementById("productosList");
     let buscarInput = document.getElementById("buscarInput");
     let buscarButton = document.getElementById("buscarButton");
-    let productoIf = document.getElementById("productoIf");
 
     let nombre = "";
     let saldo = 0;
@@ -43,12 +42,20 @@ document.addEventListener("DOMContentLoaded", function () {
     let productosCP = [];
     let carrito = [];
 
-    if (localStorage.getItem("nombre")) {
-        nombre = localStorage.getItem("nombre");
-        nbInput.value = nombre;
-        saldo = parseFloat(localStorage.getItem("saldo"));
-        azSaldo();
-    }
+    window.addEventListener('beforeunload', function () {
+        if (carrito.length > 0) {
+            guardarLocal('carrito', JSON.stringify(carrito));
+        }
+    });
+
+
+    window.addEventListener('load', function () {
+        const carritoGuardado = localStorage.getItem('carrito');
+        if (carritoGuardado) {
+            carrito = JSON.parse(carritoGuardado);
+
+        }
+    });
 
     async function cargarProductos() {
         try {
@@ -84,10 +91,11 @@ document.addEventListener("DOMContentLoaded", function () {
     buscarButton.addEventListener("click", () => {
         const buscar = buscarInput.value;
         const encontrado = productosCP.find(producto => producto.producto.toLowerCase() === buscar.toLowerCase());
-    
+
         if (encontrado) {
             const mensaje = encontrado.barato() ? "barato" : "caro";
             Swal.fire(`${encontrado.producto} está disponible y es ${mensaje}💲`);
+            agregarAlCarrito(encontrado);
         } else {
             Swal.fire("Producto no encontrado🚫");
         }
@@ -133,4 +141,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     cargarProductos();
 });
-
